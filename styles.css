@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+}
+
+.center {
+    width: 30%;
+    text-align: center;
+    color: rgb(94, 176, 201);
+}
+
+.left {
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.right {
+    width: 50%;
+    text-align: center;
+    color: rgb(94, 176, 201);
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 1px;
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border: 2px solid rgb(94, 176, 201);
+    border-radius: 15px 15px;
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
