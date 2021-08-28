@@ -1,56 +1,69 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-    <title>
-        web page
-    </title>
-    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
-<body bgcolor="white">
-
-    <!-- Added a container to contain divisions -->
+<body class="--bg-white">
     <div class="container">
-        <div class="left" style="color:grey"><br><br><br><br>
-            <br><br>
-            <h3 class="h3"> Make friends </h3>
+        <div class="main-grid">
+            <div class="logo">
+                <h3 class="--lr-color --fw-b">UR</h3>
 
-            <p style="color:grey" class="p">There are many variatons of passages of lorem Ipsum available,<br> but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which dont look even slightly believable. <br> if you are going to use
-                a passage of lorem Ipsum.<br>
+            </div>
+            <div class="navbr">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="falses" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link pr-4" href="#">Sign up <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link pr-4" href="#">log in</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+               
+            </div>
 
-                <br>All the lorem Ipsum generators on the internet tend to <br> repeat predifined chunks as necassary, make this<br> the first true generator on internet. </p><br><br>
         </div>
-        <!-- Added a center container -->
-        <div class="center">
-            <h1 class="h1">UR</h1>
-        </div><br><br>
-        <div class=" right "><br><br>
-            <nav>
-                <ul class="no bullets ">
-                    <li>
-                        <a href="Sign up " class="a1 ">Sign up</a>
-                    </li>
-                    <li>
-                        <a href="Log in " class="a2 ">Log in</a>
-                    </li>
-                    <li>
-                        <a href="Contact us " class="a3 ">Contact us</a>
-                    </li>
-                </ul>
-            </nav><br>
-            <h2 class="h2 ">Log in to uroots</h2>
+        <div class="form-grid mt-5 --fc-b">
+            <div class="paragraph">
+                <h3 >Make friends</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.
+                </p>
+                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
 
-            <form>
-                <input type="text " id="fname " name="fname " placeholder="Email " class="input"><br>
+            </div>
+            <div class="info-form">
+                <form class="input-form">
+                    <input type="text " id="fname " name="fname " placeholder="Email " class="inputfield">
+                    <input type="password " id="pwd " name="pwd " minlength="8 " placeholder="Password " class="inputfield">
+                    <button class="submit">Log in</button>
+                </form>
+              
+            </div>
 
-                <br><input type="password " id="pwd " name="pwd " minlength="8 " placeholder="Password " class="input">
-            </form><br>
-            <button class="b1">Log in</button>
+
         </div>
+
     </div>
+
 </body>
 
 </html>
